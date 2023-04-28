@@ -1,7 +1,7 @@
 import  CardInstrument  from "./CardInstrument"
 import instrumentosJson from "../assets/instrumentos.json"
 import React from "react"
-import Instrumento from "./Instrumento"
+import Instrumento from "./InstrumentoClass"
 import { Link } from "react-router-dom"
 
 
@@ -19,6 +19,7 @@ export const Productos = () => {
         </Link>
         
       )}
+      
     </>
   )
 }

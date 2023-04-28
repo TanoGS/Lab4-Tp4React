@@ -7,23 +7,14 @@ import { Link } from 'react-router-dom';
 function ColorSchemesExample() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">       
+      <Navbar bg="dark" variant="dark">
         <Container>
-          
           <Link to="/home">
-          <Navbar.Brand>Home</Navbar.Brand>
+            <Navbar.Brand>Home</Navbar.Brand>
           </Link>
-
           <Nav className="me-auto">
-
-            
             <Nav.Link href='/maps'>Maps</Nav.Link>
-                 
-
-            
             <Nav.Link href='/productos'>Productos</Nav.Link>
-                         
-            
           </Nav>
         </Container>
       </Navbar>

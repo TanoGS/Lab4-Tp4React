@@ -1,0 +1,38 @@
+.imagen{
+    width: 300px;
+}
+.contenedor{
+width: 800px;
+height: 500px;
+
+}
+
+.descripcion{
+    font-size: 15px;
+}
+.instrumento{
+    font-size: 35px;
+}
+.marca{
+    font-size: 15px;
+}
+
+.modelo{
+    font-size: 15px;
+}
+
+.boton{
+    margin-left: 40px;
+    margin-top: 70px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 10px;
+    width: 180px;
+    height: 40px;
+    
+}
+.agregar{
+    margin-left: 10px;
+    position: fixed;
+    
+}

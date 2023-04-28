@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "./Home.css"
 
 function Home() {
     const [count, setCount] = useState(0)
@@ -6,8 +7,7 @@ function Home() {
     return (
   
       <div className="Home">
-      
-      <p>Musical Hendrix es una tienda de instrumentos musicales con ya más de 15 años de experiencia.
+      <p className="texto">Musical Hendrix es una tienda de instrumentos musicales con ya más de 15 años de experiencia.
          Tenemos el conocimiento y la capacidad como para informarte acerca de las mejores elecciones para tu compra musical.</p>
          <p>Crear Componente: rfc</p>
       </div>
